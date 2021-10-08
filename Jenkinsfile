@@ -24,5 +24,11 @@ pipeline {
                 echo 'Managing the Project'
             }
         }
+        
+        stage('Feedback'){
+            steps{
+                echo 'Collecting the feedback'
+            }
+        }
     }
 }
